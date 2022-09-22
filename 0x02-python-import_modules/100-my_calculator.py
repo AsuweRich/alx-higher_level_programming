@@ -20,19 +20,23 @@ if __name__ == "__main__":
         total = add(num1, num2)
         print("{:d} + {:d} = {:d}".format(num1, num2, total))
         return total
-                                                                                    def sub_():
+
+    def sub_():
         total = sub(num1, num2)
         print("{:d} - {:d} = {:d}".format(num1, num2, total))
         return total
-                                                                                    def mul_():
+
+    def mul_():
         total = mul(num1, num2)
         print("{:d} * {:d} = {:d}".format(num1, num2, total))
         return total
-                                                                                    def div_():
+
+    def div_():
         total = div(num1, num2)
         print("{:d} / {:d} = {:d}".format(num1, num2, total))
         return total
-                                                                                    options = {
+
+    options = {
         "+": add_,
         "-": sub_,
         "*": mul_,
