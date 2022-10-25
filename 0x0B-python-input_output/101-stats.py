@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 'ads from standard input and computes metrics'
-import sys
 
 """
 After every ten lines or the input of a keyboard interruption (CTRL + C),
@@ -21,6 +20,7 @@ def print_stats(size, status_codes):
         print("{}: {}".format(key, status_codes[key]))
 
 if __name__ == "__main__":
+    import sys
 
     size = 0
     status_codes = {}
